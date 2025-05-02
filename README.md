@@ -1,6 +1,6 @@
 # chowlk-drawio-converter
 
-Generate OWL ontology from Chowlk diagram in the specified drawio page.
+Generate OWL ontology from Chowlk diagram directly from the specified drawio page.
 
 ## Usage Instructions
 
