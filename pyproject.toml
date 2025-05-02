@@ -1,0 +1,19 @@
+[project]
+name = "chowlk-drawio-converter"
+version = "1.0.0"
+description = "Converts Chowlk diagram from a page of a drawio file into an OWL ontology"
+authors = [
+    {name = "Ignacio Dominguez Martinez-Casanueva",email = "ignacio.dominguezmartinez@telefonica.com"}
+]
+license = {text = "Apache-2.0"}
+requires-python = ">=3.10"
+dependencies = [
+    "requests (>=2.32.3,<3.0.0)"
+]
+
+[project.scripts]
+chowlk-drawio-converter = 'chowlk_drawio_converter.cli:main'
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
